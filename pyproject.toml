@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ready"
-version = "0.5.1"
+version = "0.5.2"
 description = "Take control of the event loop with simplified task management and queueing"
 authors = ["Carl Oscar Aaro <hello@carloscar.com>"]
 homepage = "https://github.com/kalaspuff/ready"
