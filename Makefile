@@ -24,6 +24,9 @@ version:
 black:
 	poetry run black -l 120 ready/ tests/
 
+isort:
+	poetry run isort -rc ready/ tests/
+
 build:
 	rm -rf dist/
 	poetry build
