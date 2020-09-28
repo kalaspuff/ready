@@ -22,10 +22,10 @@ version:
 	poetry version `python ready/__version__.py`
 
 black:
-	poetry run black -l 120 ready/ tests/
+	poetry run black ready/ tests/
 
 isort:
-	poetry run isort -rc ready/ tests/
+	poetry run isort ready/ tests/
 
 build:
 	rm -rf dist/
